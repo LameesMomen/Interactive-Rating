@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216deg 9% 31%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+body {
+    background-color: var(--Very-Dark-Blue);
+}
+
+.main-app {
+    padding: 30px;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: var(--Dark-Blue);
+    margin: auto;
+    margin-top: 10%;
+}
+
+.star-design {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--Medium-Grey);
+}
+
+.star-image {
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.title h2 {
+    color: var(--White);
+}
+
+.paragraph p {
+    color: var(--Light-Grey);
+    font-size: 15px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--Medium-Grey);
+    color: var(--White);
+}
+
+.btn:hover {
+    background-color: var(--orange);
+    color: var(--White);
+}
+
+.btn:focus {
+    background-color: var(--orange);
+}
+
+.btn-submit {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--orange);
+    color: var(--White);
+    border: 0;
+}
+
+.btn-submit:hover {
+    background-color: var(--White);
+    color: var(--orange);
+}
+
+
+/* Thank Page */
+
+.detail-rating {
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--Medium-Grey);
+    color: var(--orange);
+    font-size: 15px;
+}
+
+.thank-you-title h2 {
+    color: var(--White);
+}
+
+.paragraph p {}
